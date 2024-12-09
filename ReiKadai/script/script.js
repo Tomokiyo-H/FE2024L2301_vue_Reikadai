@@ -42,7 +42,7 @@ new Vue({
       }
     },
     // ★穴埋め★ 算出プロパティ
-    XXXXXXXX {
+    computed: {
       bindStyle() {
         // レンジに応じたスタイルを適用する
         return `font-size: ${this.scale}px; color: rgb(${this.red},20,100)`
